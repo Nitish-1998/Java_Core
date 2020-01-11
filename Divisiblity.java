@@ -1,0 +1,19 @@
+import java.util.*;
+class Divisiblity 
+{
+	public static void main(String[] args) 
+	{  int n;
+	   Scanner input=new Scanner(System.in);
+	   System.out.println("Enter the Number=");
+	   n=input.nextInt();
+	   if (n%5==0 && n%11==0)
+	   {
+		   System.out.println("It is Divisible by 5 and 11");
+	   }   
+       else
+	   {
+		   System.out.println("It is not divisible by both 5 and 11");
+	   }
+		
+	}
+}

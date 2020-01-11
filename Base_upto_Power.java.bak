@@ -1,0 +1,19 @@
+import java.util.*;
+class  Base_upto_Power
+{
+	public static void main(String[] args) 
+	{
+		int b,p,i=1,pow=1;
+		Scanner new = input Scanner(System.in);
+		System.out.println("Enter Base:");
+		b=input.nextInt();
+		System.out.println("Enter Power:");
+		p=input.nextInt();
+		for(i=1;i<=p;i++)
+		{
+			pow=pow*b;
+		
+		}
+		System.out.println("Answer is:"+pow);
+	}
+}
