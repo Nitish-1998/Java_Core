@@ -28,6 +28,7 @@ public class PrimeNo
 
 		}
 		input.close();
+		System.exit(0);
 
 	}
 

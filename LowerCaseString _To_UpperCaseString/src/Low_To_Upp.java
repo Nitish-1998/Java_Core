@@ -52,6 +52,7 @@ public class Low_To_Upp
 	 }
 		
 		input.close();
+		System.exit(0);
 
 	}
 

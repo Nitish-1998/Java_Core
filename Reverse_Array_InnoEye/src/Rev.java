@@ -21,6 +21,7 @@ public class Rev
 	{
 		int temparray[]= {5,4,9,6,1,3};
 		int rev[]=reversearray(temparray);
+		System.out.println("Reverse Array Are:-");
 		for(int i:rev)
 		{
 			System.out.println(i);

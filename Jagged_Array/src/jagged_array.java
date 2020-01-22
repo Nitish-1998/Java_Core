@@ -31,7 +31,8 @@ public class jagged_array
 		   {
 			   System.out.print(arr[i][j]+" ");
 		   }
-  }
+		   System.out.println();
+       }
        input.close();
    }
     

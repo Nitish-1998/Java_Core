@@ -8,7 +8,7 @@ public class Loop
 		{
 			sum=sum+data;
 		}
-		System.out.println("Sum is : -"+sum);
+		System.out.println("Sum is :- "+sum);
 
 	}
 

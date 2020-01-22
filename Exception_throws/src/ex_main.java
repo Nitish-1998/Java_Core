@@ -17,6 +17,7 @@ public class ex_main
 		catch(ArithmeticException e)
 		{
 			System.out.println("Exception Generated");
+			e.printStackTrace();
 		}
 		
 	}

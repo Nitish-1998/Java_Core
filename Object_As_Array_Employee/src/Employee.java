@@ -42,6 +42,7 @@ void put_Detail_Employee()
 	  System.out.println("Employee Da: "+da);
 	  //System.out.println("Employee Bonus: "+bo);
 	  System.out.println("Employee Salary: "+netsal);
+	  System.out.println();
 }
 
 

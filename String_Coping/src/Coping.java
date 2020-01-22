@@ -16,7 +16,7 @@ public class Coping
         	a[i]=x[i];
         }
         System.out.printf("Copied array is: ");
-        System.out.print(a);
+        System.out.println(a);
         input.close();
         
 	}

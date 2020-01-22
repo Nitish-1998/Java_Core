@@ -31,6 +31,7 @@ public class Anagram
 	    	System.exit(0);
 	    }
 	    input.close();
+	    System.exit(0);
 	}
 
 }

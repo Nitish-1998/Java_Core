@@ -1,12 +1,14 @@
 
-public class Garbage_Collect {
+public class Garbage_Collect 
+{
 	
 	protected void finalize()
 	{
 		System.out.println("Object collected thik h");
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		// TODO Auto-generated method stub
 		
 		Garbage_Collect gb1=new Garbage_Collect();
