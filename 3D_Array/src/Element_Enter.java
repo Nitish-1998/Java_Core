@@ -29,7 +29,7 @@ public class Element_Enter
 				  {
 					  System.out.print(arr[i][j][k] +" ");
 				  }
-                                                                  System.out.println();
+                      System.out.println();
 		      }
 		   
 		  }
