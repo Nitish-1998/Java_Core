@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Comparable_Example 
@@ -15,6 +16,7 @@ public class Comparable_Example
 		values.add(new Student(6,46));
 		values.add(new Student(7,35));
 		
+    	Collections.sort(values);
 		for(Student sd:values)
 		{
 			System.out.println(sd);
@@ -36,8 +38,7 @@ class Student implements Comparable<Student>
 	{
 		return "Student{"+"RollNo: "+ rollno +", Marks: "+ marks+"}";
 		
-	}
-	@Override
+	}	
 	public int compareTo(Student s) 
 	{	
 		return this.marks>s.marks?-1:this.marks<s.marks?1:0;

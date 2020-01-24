@@ -7,7 +7,7 @@ public class DemoClass
 	public static void main(String[] args) 
 	{
 		Collection<Integer>values=new ArrayList<Integer>() 
-		{{
+		{{//Double Braces Initialization
 			add(48);
 			add(24);
 			add(25);
