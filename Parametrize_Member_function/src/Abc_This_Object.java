@@ -1,15 +1,15 @@
-import java.util.*;
+
 public class Abc_This_Object 
-{    private int x,y;
+{    private int z,c;
      void get(int x,int y)
      { 
-    	 this.x=x;
-    	 this.y=y;   	 
+    	 this.z=x;
+    	 this.c=y;   	 
      }
      void put()
      {
-    	 System.out.println("Your value of x is : "+x);
-    	 System.out.println("Your value of y is :"+y);
+    	 System.out.println("Your value of x is : "+z);
+    	 System.out.println("Your value of y is :"+c);
      }
 }
     class Abc_Main

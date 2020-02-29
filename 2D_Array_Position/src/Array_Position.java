@@ -27,8 +27,9 @@ public class Array_Position
         	for(j=0;j<arr.length;j++)
         	{   
         		 if(ind == arr[i][j])
-        		 {System.out.print("Row:"+i);
-        		  System.out.print("Column:"+j);                             
+        		 {
+                 		  System.out.print("Row:"+i);
+                		  System.out.print("Column:"+j);                             
         		 }
         		
         			 

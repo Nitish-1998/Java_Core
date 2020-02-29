@@ -12,10 +12,7 @@ public class jagged_array
     	System.out.println("Enter columns: ");
     	int c=input.nextInt();
     	arr[i]=new int[c];
-     
-       //
-	  
-		   
+    	
 	 }
     System.out.println("Elements are: ");
     for(int i=0;i<arr.length;i++) 

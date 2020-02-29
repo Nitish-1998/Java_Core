@@ -4,7 +4,7 @@ class  No_of_digits
 
 	public static void main(String args[]) 
 	{
-	 int num,i,rev=0,rem,count=0;
+	 int num,rev=0,rem,count=0;
      Scanner input=new Scanner(System.in);
      System.out.println("Enter number u want to entered : ");
      num=input.nextInt();

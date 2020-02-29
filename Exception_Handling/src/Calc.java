@@ -13,5 +13,9 @@ class Calc
 		   System.out.println("You cannot divide by 0");
 		   e.printStackTrace();
 	   }
+	   finally 
+	   {
+	     System.out.println("Finally block");       
+	   }
    }
 }

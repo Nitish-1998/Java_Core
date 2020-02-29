@@ -26,7 +26,8 @@ class Derived extends Base
 		System.out.println("This value of y in derived is: "+y);
 	}
 }
-class Example{
+class Example
+{
  public static void main(String args[])
 {
 	 Derived d1=new Derived();

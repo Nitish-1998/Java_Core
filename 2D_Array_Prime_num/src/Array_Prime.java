@@ -22,7 +22,7 @@ public class Array_Prime
 	  
 	  for(int i=0;i<arr.length;i++)
 	  {
-		  for(int j=0;j<arr.length;j++)
+		  for(int j=0;j<arr[i].length;j++)
 		  {
 			  int status=0;
 			  for(int l=2;l*l<=arr[i][j];l++)

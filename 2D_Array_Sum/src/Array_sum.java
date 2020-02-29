@@ -21,7 +21,7 @@ public class Array_sum
          int sum=0;
 	    for(int i=0;i<arr.length;i++)
      {
-    	for(int j=0;j<arr.length;j++)
+    	for(int j=0;j<arr[i].length;j++)
     	{
     	  sum=sum+arr[i][j];
     	}

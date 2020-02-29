@@ -27,7 +27,7 @@ public class Array_BubbleSort
         		}
         	}
          }
-         System.out.println(" Bubble Sorted Element are:");
+         System.out.println("Bubble Sorted Element are: ");
          for(int i=0;i<a.length;i++)
          {
         	 System.out.println(a[i]);
